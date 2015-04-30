@@ -1,0 +1,107 @@
+#menu {
+	float: left;
+}
+#menu ul.group {
+	margin: 12px 0px 0px 14px;
+	padding: 0px 0px 0px;
+	list-style: none;
+	float: left;
+	z-index:4;
+}
+#menu ul.group li {
+	display: inline;
+	float: left;
+	position: static;
+	z-index: 5;
+	margin-left:0px !important;
+}
+#menu ul.group li a {
+	display: block;
+	float: left;
+	height: 100px;
+	width: 114px;
+	overflow:hidden;
+	font-size: 12px;
+	font-weight: bold;
+	font-style: italic;
+	color: white;
+	text-decoration:none;
+	text-align:center;
+	z-index:6;
+}
+#menu ul.group li a * {
+	cursor: pointer;
+}
+#menu ul.group li a span.outer {
+	display: block;
+	height: 90px;
+	padding-top: 10px
+}
+#menu ul.group li a span.inner {
+	display: block;
+	padding: 55px 10px 9px 10px;
+	white-space: nowrap;
+	background-repeat: no-repeat;
+	background-position: 50% 3px;
+}
+#menu ul.group li a {
+	background:url('../images/navigation_background_green.gif') repeat-x top left;
+}
+#menu ul.group li.first a {
+	background:url('../images/navigation_first_green.gif') no-repeat top left;
+}
+#menu ul.group li.last a {
+	background:url('../images/navigation_last_green.gif') no-repeat top right;
+}
+#menu ul.group li.last a span.inner {
+	border: none !important;
+}
+
+#menu ul.group li a:hover, #menu ul.group li a.hover {
+	background-position: bottom left;
+	text-decoration: none;
+}
+#menu ul.group li.last a:hover, #menu ul.group li.last a.hover  {
+	background-position: bottom right;
+}
+#menu ul.group li a.current {
+	background-position: bottom left;
+	text-decoration: none;
+}
+#menu ul.group li.last a.current  {
+	background-position: bottom right;
+}
+#menu ul.group li.first a.current  {
+	background-position: bottom left;
+}
+
+#menu ul.group li a span.inner {
+	border-right: 1px solid #4c6b00;
+}
+#menu ul.group li a:hover span.inner {
+	border-right: 1px solid #4c6b00;
+}
+#menu ul.group li a.more {
+}
+#menu .additional a span {
+  	border-right:1px solid #DFDCBB;
+}
+#menu .dashboard { background-image: url(../images/agenda.png); background-repeat: no-repeat;  }
+#menu .content { background-image: url(../images/paciente.png); background-repeat: no-repeat;  }
+#menu .reports { background-image: url(../images/medico.png); background-repeat: no-repeat;  }
+#menu .users { background-image: url(../images/icon_users.png); background-repeat: no-repeat;  } 
+#menu .media_library { background-image: url(../images/relatorios.png); background-repeat: no-repeat;  }
+#menu .event_manager { background-image: url(../images/ajuda.png); background-repeat: no-repeat;  } 
+#menu .newsletter { background-image: url(../images/icon_settings.png); background-repeat: no-repeat;  }
+#menu .settings { background-image: url(../images/sair.png); background-repeat: no-repeat;  }
+#hidden_submenu {
+	background:#FFF;
+	padding:10px;
+	display:none;
+	width:918px !important;
+	border-left: 1px solid #9C9C9C;
+	border-right: 1px solid #9C9C9C;
+	border-bottom: 1px solid #CCC;
+}
+#hidden_submenu .more_menu { float:left; margin: 10px 5px; }
+#hidden_submenu .more_menu li { margin-left: 30px; }

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Fpin - Projeto</title>
+<link rel="stylesheet" type="text/css" href="css/960.css" />
+<link rel="stylesheet" type="text/css" href="css/green.css" />
+<style type="text/css">
+      table
+      {
+        font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+        width:100%;
+        border-collapse:collapse;
+      }
+      table td, th
+      {
+        border:1px solid #86B404;
+        padding:3px 7px 2px 7px;
+      }
+      table th
+      {
+        font-size:1.2em;
+        text-align:left;
+        padding-top:5px;
+        padding-bottom:4px;
+        background-color:#688A08;
+        color:#fff;
+      }
+      table tr.alt td
+      {
+        color:#000;
+        background-color:#A5DF00;
+      }
+    </style>
+</head>
+
+<body>
+<!-- WRAPPER START -->
+<div class="container_16" id="wrapper">	
+<!-- HIDDEN COLOR CHANGER -->      
+      <div style="position:relative;">
+      	<div id="colorchanger">
+        	<a href="dashboard_red.html"><span class="redtheme">Red Theme</span></a>
+            <a href="dashboard.html"><span class="bluetheme">Blue Theme</span></a>
+            <a href="dashboard_green.html"><span class="greentheme">Green Theme</span></a>
+        </div>
+      </div>
+  	<!--LOGO-->
+	<div class="grid_8" id="logo">Fpin - Projeto</div>
+    <div class="grid_8">
+<!-- USER TOOLS START -->
+     
+    </div>
+<!-- USER TOOLS END -->    
+<div class="grid_16" id="header">
+<!-- MENU START -->
+<div id="menu">
+	<ul class="group" id="menu_group_main">
+		<li class="item first" id="one"><a href="agenda.html" class="main"><span class="outer"><span class="inner dashboard">Agenda</span></span></a></li>
+        <li class="item middle" id="two"><a href="paciente.html" class="main"><span class="outer"><span class="inner content">Pacientes</span></span></a></li>
+        <li class="item middle" id="three"><a href="medico.html" class="main"><span class="outer"><span class="inner reports png">Medicos</span></span></a></li>
+        <li class="item middle" id="four"><a href="usuario.html" class="main current"><span class="outer"><span class="inner users">Usuários</span></span></a></li>
+		<li class="item middle" id="five"><a href="relatorio.html" class="main"><span class="outer"><span class="inner media_library">Relátorios</span></span></a></li>        
+		<li class="item middle" id="six"><a href="ajuda.html" class="main"><span class="outer"><span class="inner event_manager">Ajuda</span></span></a></li>        
+		<li class="item middle" id="seven"><a href="#" class="main"><span class="outer"><span class="inner newsletter">Configurações</span></span></a></li>        
+		<li class="item last" id="eight"><a href="index.html" class="main"><span class="outer"><span class="inner settings">Sair</span></span></a></li>        
+    </ul>
+</div>
+<!-- MENU END -->
+</div>
+<div class="grid_16">
+<!-- TABS START -->
+    <div id="tabs">
+         <div class="container">
+            <ul>
+                      <li><a href="usuario.html" class="current"><span>Pesquisar usuário</span></a></li>
+                      <li><a href="registrausuario.html"><span>Registrar usuário</span></a></li>                                                                            
+					  <li><a href="#"><span>Manutenção de usuário</span></a></li>    
+           </ul>
+        </div>
+    </div>
+<!-- TABS END -->    
+</div>
+<!-- HIDDEN SUBMENU START -->
+
+<!-- HIDDEN SUBMENU END -->  
+
+<!-- CONTENT START -->
+
+    <div class="grid_16" id="content">
+    <!--  TITLE START  -->  <div class="grid_9">
+    <h1 class="content_edit">Pesquisa de usuário</h1>
+    </div>
+    <div class="grid_15" id="textcontent">
+    
+ <a li=""><class="busca"></class="busca"></a>
+ <form name="formbbuol" method="get" action="{google:baseURL}search?q=%s&amp;{google:RLZ}{google:acceptedSuggestion}{google:originalQueryForSuggestion}{google:assistedQueryStats}{google:searchFieldtrialParameter}{google:searchClient}{google:sourceId}{google:instantExtendedEnabledParameter}ie={inputEncoding}" onsubmit="buscaClick()"><a li="">
+<input type="hidden" value="Pesquisar" name="ad" title="Digite Aqui o Que Você quer Pesquisar" />
+<input type="hidden" value="codigofonte" name="ref" /><input type="hidden" name="origem" value="barrauol" />
+<input type="text" name="texto" value="Pesquisar" size="105" class="smallInput wide" title="Digite Aqui o Que você quer Pesquisar" />
+<input type="submit" name="texto" value="BUSCAR" class="tb" title="Pesquisar" />
+
+
+</span></a></form>	
+Listar usuários com paginação
+  <table>
+        <tr>
+          <th>Código</th>
+          <th>Usuário</th>
+          <th>Cargo</th>
+        </tr>
+        <tr>
+          <td>12345</td>
+          <td>DR. ARLEN ELISON SALGUEIRO BONFA</td>
+          <td>Médico</td>
+        </tr>
+        <tr class="alt">
+          <td>54321</td>
+          <td>CLAUDIA REGINA FARIA FELICISSIMO</td>
+          <td>Secretária</td>
+        </tr>
+        <tr>
+          <td>12354</td>
+          <td>JAIRO ANTONIO SILVERIO</td>
+          <td>Recepcionista</td>
+        </tr>
+        <tr class="alt">
+          <td>32415</td>
+          <td>LINCOLN LOPES FERREIRA</td>
+          <td>Recepcionista</td>
+        </tr>
+        <tr>
+          <td>42124</td>
+          <td>DR. LUIZ ANTONIO AVELAR</td>
+          <td>Médico</td>
+        </tr>
+        <tr class="alt">
+          <td>14356</td>
+          <td>DRA. SAYONARA MARIA LESSA PACHECO</td>
+          <td>Médico</td>
+        </tr>
+    </table>    
+   </div>
+    <div class="clear"> </div>
+<!-- END CONTENT-->    
+  </div>
+<div class="clear"> </div>
+
+
+</div>
+<!-- FOOTER START -->
+<div class="container_16" id="footer">Desenvolvido para <a href="../index.html">Disciplina de FPIN</a></div>
+<!-- FOOTER END -->
+</body>
+</html>
