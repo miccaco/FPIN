@@ -1,0 +1,13 @@
+Procedimentos para Instalação
+
+
+* Execultar script agconsulta.sql, em um banco Mysql,ria
+
+Este script cria o usuario agconsulta, com senha agconsulta e o banco agconsulta
+
+*copiar os arquivos para a uma pasta dentro do apache, e execultar o index.php
+
+* O usuario pre cadastrado e 1 com senha 123
+
+
+Apos isto deve-se cadastrar os medicos e suas agendas.
