@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Fpin - Projeto</title>
@@ -13,36 +12,25 @@
   <div class="grid_6 prefix_5 suffix_5">
    	  <h1>Tela de Acesso</h1>
     	<div id="login">
+		
     	  <p class="tip">informe seu usuário e senha!</p>
 
-
-
-    	  <form id="form1" name="form1" method="post" action="">
+    	  <form id="form1" name="form1" method="post" action="index.php">
     	    <p>
-    	      <label><strong>Usuário</strong>
-<input type="text" name="textfield" class="inputText" id="usuario" />
+    	      <label><strong>Código ou CPF</strong>
+<input type="text" name="usuario" class="inputText" id="textfield" />
     	      </label>
   	      </p>
     	    <p>
     	      <label><strong>Senha</strong>
-  <input type="password" name="textfield2" class="inputText" id="senha" />
+<input type="password" name="senha" class="inputText" id="textfield2" />
   	        </label>
     	    </p>
-    		<a class="black_button" href="agenda.html"><span>Autenticar</span></a>
+    		<span><input type="submit" value="Autenticar" class="black_button" ></span>
              <label>
-
-
-
     	  </form>
 		  <br clear="all" />
     	</div>
         <div id="forgot">
-
-
-
   </div>
-
 <br clear="all" />
-<div class="container_16" id="footer">Desenvolvido para <a href="../index.htm">Fpin - Projeto</a></div>
-</body>
-</html>
