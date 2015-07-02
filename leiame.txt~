@@ -1,7 +1,20 @@
 Procedimentos para Instalação
 
+PRÉ REQUISITOS
 
-* Execultar script agconsulta.sql, em um banco Mysql,ria
+PARA SERVIDOR
+
+Banco Mysql
+Apache
+
+PARA CLIENTE
+
+Browser Chrome, Firefox ou Opera
+
+//não testado em outros browsers
+
+
+* Execultar script agconsulta.sql, em um banco Mysql
 
 Este script cria o usuario agconsulta, com senha agconsulta e o banco agconsulta
 
@@ -12,3 +25,13 @@ Este script cria o usuario agconsulta, com senha agconsulta e o banco agconsulta
 
 Apos isto deve-se cadastrar os medicos e suas agendas.
 ...
+
+
+
+
+equipe
+
+
+Rodrigo Temóteo
+Lazaro Francisco
+Macelo Jose da Silva 	
