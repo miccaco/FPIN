@@ -6,8 +6,8 @@
 -- Generation Time: 01-Jul-2015 às 00:55
 -- Versão do servidor: 5.6.21
 -- PHP Version: 5.6.3
-CREATE USER 'agconsulta '@'localhost' IDENTIFIED BY 'agconsulta';
-GRANT ALL PRIVILEGES ON *.* TO 'agconsulta '@'localhost' WITH GRANT OPTION;
+CREATE USER 'agconsulta'@'localhost' IDENTIFIED BY 'agconsulta';
+GRANT ALL PRIVILEGES ON *.* TO 'agconsulta'@'localhost' WITH GRANT OPTION;
 
 create database agconsulta;
 use agconsulta;
